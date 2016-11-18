@@ -1,0 +1,3 @@
+[submodule "vendor/Finwo/Framework"]
+	path = vendor/Finwo/Framework
+	url = git://github.com/finwo/php-framework.git
