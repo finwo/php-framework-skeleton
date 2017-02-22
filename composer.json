@@ -4,7 +4,9 @@
         "klein/klein": "^2.1",
         "netresearch/jsonmapper": "^1.1",
         "php-di/invoker": "^1.3",
-        "finwo/datafile": "^0.0.2"
+        "finwo/datafile": "^0.0.2",
+        "finwo/property-accessor": "^0.1.4",
+        "eloquent/blox": "^3.0"
     },
     "license": "MIT",
     "authors": [
@@ -13,5 +15,8 @@
             "email": "robin@finwo.nl"
         }
     ],
+    "autoload": {
+        "psr-4": { "": "src" }
+    },
     "minimum-stability": "stable"
 }

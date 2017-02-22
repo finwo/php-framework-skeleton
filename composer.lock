@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "64fa08b510e6d8d6b4bc1df3e86dd320",
+    "content-hash": "ad8b21f1c0a8419260bfd3d4cada62a0",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -36,6 +36,58 @@
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
             "time": "2017-02-14T19:40:03+00:00"
+        },
+        {
+            "name": "eloquent/blox",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eloquent/blox.git",
+                "reference": "1f55c750a70fbbbce763fe8fb3eefa97569736ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eloquent/blox/zipball/1f55c750a70fbbbce763fe8fb3eefa97569736ba",
+                "reference": "1f55c750a70fbbbce763fe8fb3eefa97569736ba",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "icecave/archer": "~1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Eloquent\\Blox\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erin Millard",
+                    "email": "ezzatron@gmail.com",
+                    "homepage": "http://ezzatron.com/"
+                }
+            ],
+            "description": "A parser for block comment documentation.",
+            "homepage": "https://github.com/eloquent/blox",
+            "keywords": [
+                "annotation",
+                "block",
+                "comment",
+                "docblock",
+                "documentation",
+                "parser",
+                "phpDocumentor",
+                "phpdoc",
+                "tag"
+            ],
+            "time": "2014-01-26T02:51:52+00:00"
         },
         {
             "name": "finwo/datafile",
@@ -71,6 +123,38 @@
                 }
             ],
             "time": "2017-02-22T10:43:22+00:00"
+        },
+        {
+            "name": "finwo/property-accessor",
+            "version": "v0.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/finwo/property-accessor.git",
+                "reference": "b87005786dbdd368628d586b9568db6e8aec11bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/finwo/property-accessor/zipball/b87005786dbdd368628d586b9568db6e8aec11bc",
+                "reference": "b87005786dbdd368628d586b9568db6e8aec11bc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Finwo\\PropertyAccessor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Robin Bron",
+                    "email": "robin@finwo.nl"
+                }
+            ],
+            "time": "2016-05-12T11:49:48+00:00"
         },
         {
             "name": "klein/klein",
