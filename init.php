@@ -1,4 +1,7 @@
 <?php
+
+// Entry point for SGI-like httpd
+
 $f      = fopen('php://stdin', 'r');
 $line   = str_replace("\r",'',str_replace("\r\n", "\n", fgets($f)));
 $tokens = explode(' ', $line);

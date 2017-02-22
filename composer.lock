@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1e29e1c8acf0013e2ec9a4212ff0acc8",
+    "content-hash": "64fa08b510e6d8d6b4bc1df3e86dd320",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -36,6 +36,41 @@
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
             "time": "2017-02-14T19:40:03+00:00"
+        },
+        {
+            "name": "finwo/datafile",
+            "version": "v0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/finwo/php-datafile.git",
+                "reference": "f6129579e058c20a99328de757427d2bc0ea4b6c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/finwo/php-datafile/zipball/f6129579e058c20a99328de757427d2bc0ea4b6c",
+                "reference": "f6129579e058c20a99328de757427d2bc0ea4b6c",
+                "shasum": ""
+            },
+            "require": {
+                "mustangostang/spyc": "^0.6.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Finwo\\DataFile\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robin Bron",
+                    "email": "robin@finwo.nl"
+                }
+            ],
+            "time": "2017-02-22T10:43:22+00:00"
         },
         {
             "name": "klein/klein",
