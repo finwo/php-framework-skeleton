@@ -2,7 +2,9 @@
 
 namespace Acme\AcmeBundle\Document;
 
-class User
+use Finwo\Framework\AbstractDocument;
+
+class User extends AbstractDocument
 {
     /**
      * @var string

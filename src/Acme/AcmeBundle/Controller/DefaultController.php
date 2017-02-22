@@ -2,7 +2,9 @@
 
 namespace Acme\AcmeBundle\Controller;
 
-class DefaultController
+use Finwo\Framework\Controller\AbstractController;
+
+class DefaultController extends AbstractController
 {
     public function defaultAction()
     {

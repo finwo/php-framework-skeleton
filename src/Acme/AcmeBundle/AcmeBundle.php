@@ -2,7 +2,9 @@
 
 namespace Acme\AcmeBundle;
 
-class AcmeBundle
+use Finwo\Framework\Bundle\AbstractBundle;
+
+class AcmeBundle extends AbstractBundle
 {
 
 }

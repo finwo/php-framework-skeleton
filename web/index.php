@@ -1,3 +1,3 @@
 <?php
 
-// Entry point for apache-like httpd
+// Entry point for CGI-like httpd
